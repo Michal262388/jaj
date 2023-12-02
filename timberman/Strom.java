@@ -11,7 +11,7 @@ public class Strom {
         tvarStromu.addFirst(getRandomNumber(-1, 1));
     }
 
-    public int getRandomNumber(int min, int max) {
+    private int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
     }
 
